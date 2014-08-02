@@ -1,0 +1,63 @@
+                   Intel Galileo Yocto Builder v 0.0.1
+
+Index
+I.   Authors
+II.  Description
+III. Copyright
+
+I. Authors:
+
+1. Rushang Vinod Vandana Karia
+      - Masters in Computer Science
+      - Arizona State 
+      - Rushang.Karia@asu.edu
+
+2. Shrijal Pravin Gandhi
+      - Research Assitant
+      - Decision Theater (dt.asu.edu)
+      - Shrijal.Gandhi@asu.edu
+
+II. Description:
+
+A script that can be used to automate the building of
+yocto images for Intel Galileo.
+
+The image built is 1.0.1. Older images are not supported
+
+More information about the manual build process can be found here
+https://communities.intel.com/community/makers/documentation/galileodocuments
+
+To use this script
+Download it and make sure it is executable
+
+Type 
+./build_clanton.sh to run it with default settings
+                     OR
+Type ./build_clanton.sh --help for more advanced usage instructions.
+
+This has been tested on Debian 7.5 and may not work on other
+systems.
+
+The default work directory is ~/build and the process requires an
+internet connection.
+
+Estimated time is from 0-10 hours with the avg. being 4.
+
+Please email bug reports to the authors.
+
+III. COPYRIGHT
+
+    Copyright (C) 2014  Rushang Karia, Shrijal Gandhi
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
